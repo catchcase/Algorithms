@@ -2,7 +2,9 @@ package sort
 
 class BubbleSort : Sort {
     override fun sort(dataSet: Array<Int>): Array<Int> {
-        if (dataSet.size < 2) { return dataSet }
+        if (dataSet.size < 2) {
+            return dataSet
+        }
 
         var rightIndex = dataSet.lastIndex
 
